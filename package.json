@@ -1,0 +1,22 @@
+{
+  "name": "rsa-int-roman-int",
+  "version": "1.0.0",
+  "description": "converter algarismo romano em intereiro e numero inteiro em romano",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "romanToInt() intToRoman()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rosines-Almeida/rsa-int-roman-int.git"
+  },
+  "author": "rosinesalmeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rosines-Almeida/rsa-int-roman-int/issues"
+  },
+  "homepage": "https://github.com/Rosines-Almeida/rsa-int-roman-int#readme"
+}

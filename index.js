@@ -1,4 +1,4 @@
-module.exports.romanToInt = function intToRoman (num) {
+module.exports.intToRoman = function intToRoman (num) {
     const decimals = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 const roman = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
     for (var i = 0; i < decimals.length; i++) {
@@ -20,7 +20,7 @@ const objRoman = {
     "D" : 500,
     "M" : 1000
 };
-module.exports.intToRoman = function romanToInt(num) {
+module.exports.romanToInt = function romanToInt(num) {
 
 var romanNumber = 0;
 for (var i = 0; i < num.length; i++) {

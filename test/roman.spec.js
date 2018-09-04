@@ -1,11 +1,11 @@
 const chai = require('chai');
 const index = require('../index.js');
 const expect = chai.expect;
-const roman =  index.romanToInt;
-const int = index.intToRoman;
+const int =  index.romanToInt;
+const roman = index.intToRoman;
 
 
-describe('romanToInt()', function() {
+describe('intToRoman()', function() {
     it('Deve retornar 1 em algarismo romano', () => {
         expect(roman(1)).to.equal('I');
         
@@ -26,9 +26,7 @@ describe('romanToInt()', function() {
         it('Deve retornar V em algarismo romano', () => {
             expect(int("V")).to.equal(5);
         
-//   });
-//   it('Deve retornar 9 em  algarismo romano', () => {
-//   expect(intToRoman(9)).to.equal('IX');
+ 
 });
 });
 

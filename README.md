@@ -11,10 +11,15 @@
 Exemplo de uso:
 ```
 $node
->  romanToInt("I")
->  \\ 1 
->  intToRoman(1)
->  \\ "I"
+ > convert = require('rsa-int-roman-int')
+//{ intToRoman: [Function: intToRoman],
+  romanToInt: [Function: romanToInt] }
+> convert.intToRoman(1)
+//'I'
+> convert.romanToInt('I')
+//1
+
+
 ```
 ## versão 1.0.2
 

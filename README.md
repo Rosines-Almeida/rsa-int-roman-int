@@ -1,6 +1,6 @@
 # rsa-int-roman-int V.1.0.2
 
-**Esta biblioteca se destina à conversão de números inteiros para números romanos e conversão de números romaos para números inteiros até 5.000**
+**Esta biblioteca se destina à conversão de números inteiros para números romanos e conversão de números romanos para números inteiros até 5.000**
  
 
 ## Os métodos utilizados na biblioteca são:
